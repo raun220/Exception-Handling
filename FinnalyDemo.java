@@ -15,14 +15,14 @@ public class FinnalyDemo {
             //throw new RuntimeException("Demo B");
             //return;
         }finally {
-            System.out.println("B checked");
+            System.out.println("B is checked");
         }
     }
     public static void main(String args[]) {
         try {
             A();
         }catch (Exception e) {
-            System.out.println("Ex caught:"+e);
+            System.out.println("Ex caught : "+e);
         }
         B();
     }
